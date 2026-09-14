@@ -1,0 +1,56 @@
+systemform:
+  formid: '{e333f5ef-0c69-4c1a-8b11-4f46a279c4b6}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{c87304a3-8466-4fb4-81b5-aed2bf7027bb}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{32b6a177-fd31-47e5-b160-ebd1eec324a7}'
+                labels:
+                  label:
+                    '@description': GENERAL
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{fcd8c4d1-02e9-4760-a71d-b105dde6cf85}'
+                      labels:
+                        label:
+                          '@description': Product Location Join
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_productlocationjoin1
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_productlocationjoin1
+                  - cell:
+                      '@id': '{cc9c85c3-ac1a-4e05-b78f-a2f0e2c81304}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033

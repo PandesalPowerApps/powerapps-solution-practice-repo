@@ -1,0 +1,80 @@
+systemform:
+  formid: '{6e91d634-c15a-4920-a694-ac49ca5c0992}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{81fcb52b-722d-4950-bf23-33fe081feda4}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{089c0852-5173-4451-98e6-ae310383e1ea}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{631a7bfc-cefe-48f7-95fe-30704e502f03}'
+                      labels:
+                        label:
+                          '@description': Product Location Join
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_productlocationjoin1
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_productlocationjoin1
+                  - cell:
+                      '@id': '{3935d83b-7022-4945-9b9d-517132d7a501}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{0286bce9-c1c7-4cec-809c-cf9f877defd4}'
+                      labels:
+                        label:
+                          '@description': Product
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_productid
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': practmp_productid
+                  - cell:
+                      '@id': '{a906c1ff-ac1f-4ebf-80ed-51d1a113d384}'
+                      labels:
+                        label:
+                          '@description': Location
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_locationid
+                        '@classid': '{270bd3db-d9af-4782-9025-509e298dec0a}'
+                        '@datafieldname': practmp_locationid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

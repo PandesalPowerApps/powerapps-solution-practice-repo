@@ -1,0 +1,13 @@
+environmentvariabledefinition:
+  '@schemaname': practmp_AppMode
+  defaultvalue: production
+  displayname:
+    '@default': App Mode
+    label:
+      '@description': App Mode
+      '@languagecode': 1033
+  introducedversion: 1.0.0.3
+  iscustomizable: 1
+  isrequired: 0
+  secretstore: 0
+  type: 100000000

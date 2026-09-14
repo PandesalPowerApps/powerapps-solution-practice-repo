@@ -1,0 +1,13 @@
+EntityKey:
+  Name: practmp_ProductLocationUnique
+  LogicalName: practmp_productlocationunique
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName:
+    - practmp_locationid
+    - practmp_productid
+  displaynames:
+    displayname:
+      '@description': Product Location Unique
+      '@languagecode': 1033

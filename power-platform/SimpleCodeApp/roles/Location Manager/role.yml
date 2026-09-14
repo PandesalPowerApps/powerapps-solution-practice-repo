@@ -1,0 +1,189 @@
+Role:
+  '@id': '{fbca4dff-f9ab-f111-aaad-000d3a86632c}'
+  '@name': Location Manager
+  IsCustomizable: 1
+  IsAutoAssigned: 0
+  RolePrivileges:
+    RolePrivilege:
+    - '@name': prvActivateSynchronousWorkflow
+      '@level': Basic
+    - '@name': prvAppendNewProcess
+      '@level': Global
+    - '@name': prvAppendpractmp_Location
+      '@level': Global
+    - '@name': prvAppendToAsyncOperation
+      '@level': Basic
+    - '@name': prvAppendToNewProcess
+      '@level': Global
+    - '@name': prvAppendTopractmp_Location
+      '@level': Global
+    - '@name': prvAppendToTranslationProcess
+      '@level': Global
+    - '@name': prvAppendToWorkflow
+      '@level': Global
+    - '@name': prvAppendToWorkflowSession
+      '@level': Basic
+    - '@name': prvAppendTranslationProcess
+      '@level': Global
+    - '@name': prvAppendWorkflow
+      '@level': Basic
+    - '@name': prvAppendWorkflowSession
+      '@level': Basic
+    - '@name': prvAssignAsyncOperation
+      '@level': Basic
+    - '@name': prvAssignpractmp_Location
+      '@level': Global
+    - '@name': prvAssignWorkflow
+      '@level': Basic
+    - '@name': prvAssignWorkflowSession
+      '@level': Basic
+    - '@name': prvCreateNewProcess
+      '@level': Global
+    - '@name': prvCreatepractmp_Location
+      '@level': Global
+    - '@name': prvCreateSharePointData
+      '@level': Global
+    - '@name': prvCreateTranslationProcess
+      '@level': Global
+    - '@name': prvCreateUserApplicationMetadata
+      '@level': Basic
+    - '@name': prvCreateUserEntityUISettings
+      '@level': Basic
+    - '@name': prvCreateWorkflow
+      '@level': Basic
+    - '@name': prvCreateWorkflowSession
+      '@level': Basic
+    - '@name': prvDeleteNewProcess
+      '@level': Global
+    - '@name': prvDeletepractmp_Location
+      '@level': Global
+    - '@name': prvDeleteTranslationProcess
+      '@level': Global
+    - '@name': prvDeleteUserApplicationMetadata
+      '@level': Basic
+    - '@name': prvDeleteUserEntityUISettings
+      '@level': Basic
+    - '@name': prvDeleteWorkflow
+      '@level': Basic
+    - '@name': prvDeleteWorkflowSession
+      '@level': Basic
+    - '@name': prvFlow
+      '@level': Global
+    - '@name': prvReadAppConfigMaster
+      '@level': Global
+    - '@name': prvReadAppModule
+      '@level': Global
+    - '@name': prvReadAsyncOperation
+      '@level': Basic
+    - '@name': prvReadAttribute
+      '@level': Global
+    - '@name': prvReadAttributeMap
+      '@level': Global
+    - '@name': prvReadBusinessUnit
+      '@level': Global
+    - '@name': prvReadComplexControl
+      '@level': Global
+    - '@name': prvReadCustomization
+      '@level': Global
+    - '@name': prvReadEntity
+      '@level': Global
+    - '@name': prvReadEntityKey
+      '@level': Global
+    - '@name': prvReadEntityMap
+      '@level': Global
+    - '@name': prvReadHierarchyRule
+      '@level': Global
+    - '@name': prvReadNewProcess
+      '@level': Global
+    - '@name': prvReadOptionSet
+      '@level': Global
+    - '@name': prvReadOrganization
+      '@level': Global
+    - '@name': prvReadPluginAssembly
+      '@level': Global
+    - '@name': prvReadPluginTraceLog
+      '@level': Global
+    - '@name': prvReadPluginType
+      '@level': Global
+    - '@name': prvReadpractmp_Location
+      '@level': Global
+    - '@name': prvReadpractmp_Product1
+      '@level': Global
+    - '@name': prvReadpractmp_ProductLocationJoin
+      '@level': Global
+    - '@name': prvReadQuery
+      '@level': Global
+    - '@name': prvReadRelationship
+      '@level': Global
+    - '@name': prvReadReport
+      '@level': Basic
+    - '@name': prvReadRole
+      '@level': Global
+    - '@name': prvReadSavedQueryVisualizations
+      '@level': Global
+    - '@name': prvReadSdkMessage
+      '@level': Global
+    - '@name': prvReadSdkMessageProcessingStep
+      '@level': Global
+    - '@name': prvReadSdkMessageProcessingStepImage
+      '@level': Global
+    - '@name': prvReadSharePointData
+      '@level': Global
+    - '@name': prvReadSharePointDocument
+      '@level': Global
+    - '@name': prvReadSystemApplicationMetadata
+      '@level': Global
+    - '@name': prvReadSystemForm
+      '@level': Global
+    - '@name': prvReadTeam
+      '@level': Global
+    - '@name': prvReadTraceLog
+      '@level': Global
+    - '@name': prvReadTransactionCurrency
+      '@level': Global
+    - '@name': prvReadTranslationProcess
+      '@level': Global
+    - '@name': prvReadUser
+      '@level': Global
+    - '@name': prvReadUserApplicationMetadata
+      '@level': Basic
+    - '@name': prvReadUserEntityUISettings
+      '@level': Basic
+    - '@name': prvReadUserQuery
+      '@level': Basic
+    - '@name': prvReadUserSettings
+      '@level': Global
+    - '@name': prvReadWebResource
+      '@level': Global
+    - '@name': prvReadWorkflow
+      '@level': Global
+    - '@name': prvReadWorkflowSession
+      '@level': Global
+    - '@name': prvSharepractmp_Location
+      '@level': Global
+    - '@name': prvShareUserEntityUISettings
+      '@level': Basic
+    - '@name': prvShareWorkflow
+      '@level': Basic
+    - '@name': prvShareWorkflowSession
+      '@level': Basic
+    - '@name': prvWorkflowExecution
+      '@level': Global
+    - '@name': prvWriteAsyncOperation
+      '@level': Basic
+    - '@name': prvWriteNewProcess
+      '@level': Global
+    - '@name': prvWritepractmp_Location
+      '@level': Global
+    - '@name': prvWriteSharePointData
+      '@level': Global
+    - '@name': prvWriteTranslationProcess
+      '@level': Global
+    - '@name': prvWriteUserApplicationMetadata
+      '@level': Basic
+    - '@name': prvWriteUserEntityUISettings
+      '@level': Basic
+    - '@name': prvWriteWorkflow
+      '@level': Basic
+    - '@name': prvWriteWorkflowSession
+      '@level': Basic

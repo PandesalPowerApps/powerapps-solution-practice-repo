@@ -1,0 +1,23 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': practmp_location
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': practmp_product1
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': practmp_productlocationjoin
+    '@behavior': 0
+  - '@type': 20
+    '@id': '{93cd863c-faab-f111-aaad-000d3a86632c}'
+    '@behavior': 0
+  - '@type': 20
+    '@id': '{b34f956a-f9ab-f111-aaad-000d3a86632c}'
+    '@behavior': 0
+  - '@type': 20
+    '@id': '{fbca4dff-f9ab-f111-aaad-000d3a86632c}'
+    '@behavior': 0
+  - '@type': 300
+    '@schemaName': practmp_simplecodeapp_474ba
+    '@behavior': 0

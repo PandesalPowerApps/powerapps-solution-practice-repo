@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{65dbb678-ec25-45ef-9a47-62f3a58d4648}'
+  layoutxml:
+    grid:
+      '@name': practmp_locations
+      '@jump': practmp_locationname
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': practmp_location
+        '@id': practmp_locationid
+        cell:
+        - '@name': practmp_locationname
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_location
+        attribute:
+        - '@name': practmp_locationid
+        - '@name': practmp_locationname
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Location Lookup View
+      '@languagecode': 1033

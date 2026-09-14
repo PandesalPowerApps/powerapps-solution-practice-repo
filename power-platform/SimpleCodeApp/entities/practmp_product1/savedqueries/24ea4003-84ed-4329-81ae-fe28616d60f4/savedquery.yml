@@ -1,0 +1,45 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{24ea4003-84ed-4329-81ae-fe28616d60f4}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_productname
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_product1id
+        cell:
+          '@name': practmp_productname
+          '@width': 300
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_product1
+        attribute:
+        - '@name': practmp_product1id
+        - '@name': practmp_productname
+        - '@name': createdon
+        order:
+          '@attribute': practmp_productname
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Products
+      '@languagecode': 1033

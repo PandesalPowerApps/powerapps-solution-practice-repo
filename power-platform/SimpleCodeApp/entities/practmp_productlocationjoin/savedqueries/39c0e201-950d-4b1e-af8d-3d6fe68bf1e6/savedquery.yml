@@ -1,0 +1,51 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{39c0e201-950d-4b1e-af8d-3d6fe68bf1e6}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_productlocationjoin1
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_productlocationjoinid
+        cell:
+        - '@name': practmp_productlocationjoin1
+          '@width': 300
+        - '@name': practmp_productid
+          '@width': 150
+        - '@name': practmp_locationid
+          '@width': 150
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_productlocationjoin
+        attribute:
+        - '@name': practmp_productlocationjoinid
+        - '@name': practmp_productlocationjoin1
+        - '@name': createdon
+        - '@name': practmp_productid
+        - '@name': practmp_locationid
+        order:
+          '@attribute': practmp_productlocationjoin1
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Product Location Joins
+      '@languagecode': 1033

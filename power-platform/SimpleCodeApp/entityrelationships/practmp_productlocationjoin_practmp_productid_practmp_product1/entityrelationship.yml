@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': practmp_productlocationjoin_practmp_productid_practmp_product1
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0
+  IsHierarchical: 0
+  ReferencingEntityName: practmp_ProductLocationJoin
+  ReferencedEntityName: practmp_Product1
+  CascadeAssign: NoCascade
+  CascadeDelete: RemoveLink
+  CascadeArchive: RemoveLink
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: practmp_ProductID
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: practmp_ProductID
+      RelationshipRoleType: 1
+    - NavigationPropertyName: practmp_productlocationjoin_practmp_productid_practmp_product1
+      RelationshipRoleType: 0
