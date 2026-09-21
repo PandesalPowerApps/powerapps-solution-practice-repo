@@ -1,0 +1,50 @@
+systemform:
+  formid: '{c6fff38c-873b-4fa1-98af-86bf989b6628}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{3dc5a913-a291-46f7-9c6b-04037938f4d7}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{361b8be3-7d8d-4428-9e21-31c60e0687af}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                      '@id': '{08e2a5f6-03c2-4485-8e3c-781177d5ecb3}'
+                      labels:
+                        label:
+                          '@description': Receiving Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_receivingnumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_receivingnumber
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

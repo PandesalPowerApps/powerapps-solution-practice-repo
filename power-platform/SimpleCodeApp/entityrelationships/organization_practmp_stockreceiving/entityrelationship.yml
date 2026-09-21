@@ -1,0 +1,20 @@
+EntityRelationship:
+  '@Name': organization_practmp_stockreceiving
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0
+  IsHierarchical: 0
+  ReferencingEntityName: practmp_StockReceiving
+  ReferencedEntityName: Organization
+  CascadeAssign: NoCascade
+  CascadeDelete: NoCascade
+  CascadeArchive: NoCascade
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  ReferencingAttributeName: OrganizationId
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': Unique identifier for the organization
+        '@languagecode': 1033

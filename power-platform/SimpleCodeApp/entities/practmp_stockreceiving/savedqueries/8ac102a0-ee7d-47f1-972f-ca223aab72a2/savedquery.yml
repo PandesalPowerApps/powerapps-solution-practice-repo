@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{8ac102a0-ee7d-47f1-972f-ca223aab72a2}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_receivingnumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_stockreceivingid
+        cell:
+        - '@name': practmp_receivingnumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockreceiving
+        attribute:
+        - '@name': practmp_stockreceivingid
+        - '@name': practmp_receivingnumber
+        - '@name': createdon
+        order:
+          '@attribute': practmp_receivingnumber
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Stock Receivings
+      '@languagecode': 1033

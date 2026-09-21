@@ -9,6 +9,9 @@ RootComponents:
   - '@type': 1
     '@schemaName': practmp_productlocationjoin
     '@behavior': 0
+  - '@type': 1
+    '@schemaName': practmp_stockreceiving
+    '@behavior': 0
   - '@type': 20
     '@id': '{93cd863c-faab-f111-aaad-000d3a86632c}'
     '@behavior': 0

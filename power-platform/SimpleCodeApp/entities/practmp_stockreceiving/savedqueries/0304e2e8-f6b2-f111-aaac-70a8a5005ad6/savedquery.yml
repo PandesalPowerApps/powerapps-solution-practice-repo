@@ -1,0 +1,32 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{0304e2e8-f6b2-f111-aaac-70a8a5005ad6}'
+  querytype: 8192
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      '@output-format': xml-platform
+      entity:
+        '@name': practmp_stockreceiving
+        attribute:
+          '@name': practmp_stockreceivingid
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Stock Receivings
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': All active Stock Receivings
+      '@languagecode': 1033
