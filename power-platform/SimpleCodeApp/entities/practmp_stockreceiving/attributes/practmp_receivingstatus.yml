@@ -1,0 +1,88 @@
+attribute:
+  '@PhysicalName': practmp_ReceivingStatus
+  Type: picklist
+  Name: practmp_receivingstatus
+  LogicalName: practmp_receivingstatus
+  RequiredLevel: required
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.3
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  AppDefaultValue: 988830000
+  optionset:
+    '@Name': practmp_stockreceiving_practmp_receivingstatus
+    OptionSetType: picklist
+    IntroducedVersion: 1.0.0.3
+    IsCustomizable: 1
+    ExternalTypeName: ''
+    displaynames:
+      displayname:
+        '@description': Receiving Status
+        '@languagecode': 1033
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+    options:
+      option:
+      - '@value': 988830000
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Draft
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+      - '@value': 988830001
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Complete
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+      - '@value': 988830002
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Cancelled
+            '@languagecode': 1033
+        Descriptions:
+          Description:
+            '@description': ''
+            '@languagecode': 1033
+  displaynames:
+    displayname:
+      '@description': Receiving Status
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033

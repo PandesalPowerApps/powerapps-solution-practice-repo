@@ -1,0 +1,11 @@
+EntityKey:
+  Name: practmp_ProductNameUnique
+  LogicalName: practmp_productnameunique
+  IntroducedVersion: 1.0.0.3
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName: practmp_productname
+  displaynames:
+    displayname:
+      '@description': Product Name Unique
+      '@languagecode': 1033

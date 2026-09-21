@@ -1,0 +1,9 @@
+Entity:
+  Name:
+    '@LocalizedName': User
+    '@OriginalName': ''
+    '#text': SystemUser
+  EntityInfo:
+    entity:
+      '@Name': SystemUser
+      '@unmodified': 1

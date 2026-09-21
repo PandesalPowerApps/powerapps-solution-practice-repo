@@ -111,6 +111,8 @@ Role:
       '@level': Global
     - '@name': prvReadpractmp_ProductLocationJoin
       '@level': Global
+    - '@name': prvReadpractmp_StockReceiving
+      '@level': Global
     - '@name': prvReadQuery
       '@level': Global
     - '@name': prvReadRelationship

@@ -1,0 +1,13 @@
+aiskillconfig:
+  '@uniquename': ais_FormFillFieldOptOut_practmp_stockreceiving_practmp_postedon
+  aiskill: FormFillFieldOptOut
+  attribute:
+    entityid.logicalname: practmp_stockreceiving
+    logicalname: practmp_postedon
+  description: practmp_stockreceiving - Posted On Form fill opt out
+  entity:
+    logicalname: practmp_stockreceiving
+  iscustomizable: 1
+  scope: 1
+  statecode: 0
+  statuscode: 1

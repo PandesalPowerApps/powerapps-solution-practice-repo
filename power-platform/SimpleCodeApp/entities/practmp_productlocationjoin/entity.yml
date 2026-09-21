@@ -26,6 +26,7 @@ Entity:
       IsCollaboration: 0
       AutoRouteToOwnerQueue: 0
       IsConnectionsEnabled: 0
+      EntityColor: ''
       IsDocumentManagementEnabled: 0
       AutoCreateAccessTeams: 0
       IsOneNoteIntegrationEnabled: 0
@@ -34,7 +35,7 @@ Entity:
       IsDocumentRecommendationsEnabled: 0
       IsBPFEntity: 0
       OwnershipTypeMask: UserOwned
-      IsAuditEnabled: 0
+      IsAuditEnabled: 1
       IsRetrieveAuditEnabled: 0
       IsRetrieveMultipleAuditEnabled: 0
       IsActivity: 0
@@ -72,9 +73,11 @@ Entity:
       CanCreateViews: 1
       CanModifyAdditionalSettings: 1
       CanEnableSyncToExternalSearchIndex: 1
+      IconVectorName: ''
       EnforceStateTransitions: 0
       CanChangeHierarchicalRelationship: 1
       EntityHelpUrlEnabled: 0
+      EntityHelpUrl: ''
       ChangeTrackingEnabled: 1
       CanChangeTrackingBeEnabled: 1
       IsEnabledForExternalChannels: 0

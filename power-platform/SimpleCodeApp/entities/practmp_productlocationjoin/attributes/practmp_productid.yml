@@ -3,7 +3,7 @@ attribute:
   Type: lookup
   Name: practmp_productid
   LogicalName: practmp_productid
-  RequiredLevel: none
+  RequiredLevel: required
   DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
   ValidForUpdateApi: 1
   ValidForReadApi: 1

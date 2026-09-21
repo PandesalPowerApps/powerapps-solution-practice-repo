@@ -24,12 +24,13 @@ attribute:
   CanModifyGlobalFilterSettings: 1
   CanModifyIsSortableSettings: 1
   IsDataSourceSecret: 0
+  AutoNumberFormat: ''
   IsSearchable: 1
   IsFilterable: 0
   IsRetrievable: 1
   IsLocalizable: 0
   Format: text
-  MaxLength: 850
+  MaxLength: 200
   Length: 1700
   displaynames:
     displayname:

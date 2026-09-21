@@ -11,11 +11,15 @@ Role:
       '@level': Global
     - '@name': prvAppendpractmp_Product1
       '@level': Global
+    - '@name': prvAppendpractmp_StockReceiving
+      '@level': Global
     - '@name': prvAppendToAsyncOperation
       '@level': Basic
     - '@name': prvAppendToNewProcess
       '@level': Global
     - '@name': prvAppendTopractmp_Product1
+      '@level': Global
+    - '@name': prvAppendTopractmp_StockReceiving
       '@level': Global
     - '@name': prvAppendToTranslationProcess
       '@level': Global
@@ -41,6 +45,8 @@ Role:
       '@level': Global
     - '@name': prvCreatepractmp_Product1
       '@level': Global
+    - '@name': prvCreatepractmp_StockReceiving
+      '@level': Global
     - '@name': prvCreateSharePointData
       '@level': Global
     - '@name': prvCreateTranslationProcess
@@ -56,6 +62,8 @@ Role:
     - '@name': prvDeleteNewProcess
       '@level': Global
     - '@name': prvDeletepractmp_Product1
+      '@level': Global
+    - '@name': prvDeletepractmp_StockReceiving
       '@level': Global
     - '@name': prvDeleteTranslationProcess
       '@level': Global
@@ -110,6 +118,8 @@ Role:
     - '@name': prvReadpractmp_Product1
       '@level': Global
     - '@name': prvReadpractmp_ProductLocationJoin
+      '@level': Global
+    - '@name': prvReadpractmp_StockReceiving
       '@level': Global
     - '@name': prvReadQuery
       '@level': Global
@@ -174,6 +184,8 @@ Role:
     - '@name': prvWriteNewProcess
       '@level': Global
     - '@name': prvWritepractmp_Product1
+      '@level': Global
+    - '@name': prvWritepractmp_StockReceiving
       '@level': Global
     - '@name': prvWriteSharePointData
       '@level': Global
