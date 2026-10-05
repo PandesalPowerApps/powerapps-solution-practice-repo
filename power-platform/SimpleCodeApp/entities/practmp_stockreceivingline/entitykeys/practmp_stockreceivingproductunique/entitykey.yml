@@ -1,0 +1,13 @@
+EntityKey:
+  Name: practmp_StockReceivingProductUnique
+  LogicalName: practmp_stockreceivingproductunique
+  IntroducedVersion: 1.0.0.3
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName:
+    - practmp_product
+    - practmp_stockreceiving
+  displaynames:
+    displayname:
+      '@description': Stock Receiving Product Unique
+      '@languagecode': 1033

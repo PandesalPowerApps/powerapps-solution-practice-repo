@@ -1,15 +1,15 @@
 attribute:
-  '@PhysicalName': practmp_ReceivedOn
+  '@PhysicalName': OverriddenCreatedOn
   Type: datetime
-  Name: practmp_receivedon
-  LogicalName: practmp_receivedon
-  RequiredLevel: required
-  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
-  ImeMode: auto
-  ValidForUpdateApi: 1
+  Name: overriddencreatedon
+  LogicalName: overriddencreatedon
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForGrid
+  ImeMode: inactive
+  ValidForUpdateApi: 0
   ValidForReadApi: 1
   ValidForCreateApi: 1
-  IsCustomField: 1
+  IsCustomField: 0
   IsAuditEnabled: 1
   IsSecured: 0
   IntroducedVersion: 1.0
@@ -28,14 +28,14 @@ attribute:
   IsFilterable: 0
   IsRetrievable: 0
   IsLocalizable: 0
-  Format: datetime
-  CanChangeDateTimeBehavior: 1
+  Format: date
+  CanChangeDateTimeBehavior: 0
   Behavior: 1
   displaynames:
     displayname:
-      '@description': Received On
+      '@description': Record Created On
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': Date and time that the record was migrated.
       '@languagecode': 1033

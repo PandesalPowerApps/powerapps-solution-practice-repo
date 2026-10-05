@@ -1,11 +1,11 @@
 attribute:
-  '@PhysicalName': practmp_ReceivedOn
-  Type: datetime
-  Name: practmp_receivedon
-  LogicalName: practmp_receivedon
+  '@PhysicalName': practmp_Quantity
+  Type: int
+  Name: practmp_quantity
+  LogicalName: practmp_quantity
   RequiredLevel: required
   DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
-  ImeMode: auto
+  ImeMode: disabled
   ValidForUpdateApi: 1
   ValidForReadApi: 1
   ValidForCreateApi: 1
@@ -20,7 +20,7 @@ attribute:
   CanModifyAdditionalSettings: 1
   SourceType: 0
   IsGlobalFilterEnabled: 0
-  IsSortableEnabled: 0
+  IsSortableEnabled: 1
   CanModifyGlobalFilterSettings: 1
   CanModifyIsSortableSettings: 1
   IsDataSourceSecret: 0
@@ -28,12 +28,12 @@ attribute:
   IsFilterable: 0
   IsRetrievable: 0
   IsLocalizable: 0
-  Format: datetime
-  CanChangeDateTimeBehavior: 1
-  Behavior: 1
+  Format: none
+  MinValue: 1
+  MaxValue: 2147483647
   displaynames:
     displayname:
-      '@description': Received On
+      '@description': Quantity
       '@languagecode': 1033
   Descriptions:
     Description:

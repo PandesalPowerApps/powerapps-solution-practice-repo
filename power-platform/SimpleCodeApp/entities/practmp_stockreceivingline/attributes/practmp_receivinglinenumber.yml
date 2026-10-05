@@ -1,10 +1,10 @@
 attribute:
-  '@PhysicalName': practmp_ReceivedOn
-  Type: datetime
-  Name: practmp_receivedon
-  LogicalName: practmp_receivedon
+  '@PhysicalName': practmp_ReceivingLineNumber
+  Type: nvarchar
+  Name: practmp_receivinglinenumber
+  LogicalName: practmp_receivinglinenumber
   RequiredLevel: required
-  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  DisplayMask: PrimaryName|ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm
   ImeMode: auto
   ValidForUpdateApi: 1
   ValidForReadApi: 1
@@ -24,16 +24,17 @@ attribute:
   CanModifyGlobalFilterSettings: 1
   CanModifyIsSortableSettings: 1
   IsDataSourceSecret: 0
-  IsSearchable: 0
+  AutoNumberFormat: SRL-{SEQNUM:6}
+  IsSearchable: 1
   IsFilterable: 0
-  IsRetrievable: 0
+  IsRetrievable: 1
   IsLocalizable: 0
-  Format: datetime
-  CanChangeDateTimeBehavior: 1
-  Behavior: 1
+  Format: text
+  MaxLength: 850
+  Length: 1700
   displaynames:
     displayname:
-      '@description': Received On
+      '@description': Receiving Line Number
       '@languagecode': 1033
   Descriptions:
     Description:

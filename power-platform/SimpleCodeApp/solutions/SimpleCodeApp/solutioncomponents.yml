@@ -133,6 +133,37 @@ SolutionComponents:
   - '@path': /entities/practmp_stockreceiving/savedqueries/ab40070b-e88b-4d84-82e2-9fae148681a1
   - '@path': /entities/practmp_stockreceiving/savedqueries/bffbfbce-e89d-4e7e-841f-58bf10717a75
   - '@path': /entities/practmp_stockreceiving/savedqueries/cb9000d7-10d1-4914-8a47-d5675bbfa163
+  - '@path': /entities/practmp_stockreceivingline
+  - '@path': /entities/practmp_stockreceivingline/attributes/createdby.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/createdon.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/createdonbehalfby.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/importsequencenumber.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/modifiedby.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/modifiedon.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/organizationid.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/overriddencreatedon.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/practmp_product.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/practmp_quantity.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/practmp_receivinglinenumber.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/practmp_stockreceiving.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/practmp_stockreceivinglineid.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/statecode.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/statuscode.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/practmp_stockreceivingline/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/practmp_stockreceivingline/entitykeys/practmp_stockreceivingproductunique
+  - '@path': /entities/practmp_stockreceivingline/formxml/card/0558a502-8f7a-4dbf-9604-1e350c8ad463
+  - '@path': /entities/practmp_stockreceivingline/formxml/main/4afcac1f-9652-490b-9f34-36fde4f5c2f7
+  - '@path': /entities/practmp_stockreceivingline/formxml/quick/26065bba-2a3f-4379-9ba1-92e7f22e0290
+  - '@path': /entities/practmp_stockreceivingline/ribbondiffs
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/28a64f4c-bef7-4773-90ce-a67fef1bde69
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/304e4719-e49d-4b66-9d00-4ca42128e6a9
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/5b5838ce-73c8-4b75-b76c-69c1e4b15d66
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/6906561b-6bc6-4c34-96a5-edbc67f15b90
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/6f83b249-8e41-47c1-8319-4e6d28780ae1
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/7c07ab87-1cdd-40d7-8421-bb60cc583ca8
+  - '@path': /entities/practmp_stockreceivingline/savedqueries/83f80fce-6fc0-f111-aaad-70a8a501ecc3
   - '@path': /entities/systemuser
   - '@path': /entities/systemuser/ribbondiffs
   - '@path': /entityrelationships/business_unit_practmp_location
@@ -146,7 +177,10 @@ SolutionComponents:
   - '@path': /entityrelationships/lk_practmp_productlocationjoin_modifiedby
   - '@path': /entityrelationships/lk_practmp_stockreceiving_createdby
   - '@path': /entityrelationships/lk_practmp_stockreceiving_modifiedby
+  - '@path': /entityrelationships/lk_practmp_stockreceivingline_createdby
+  - '@path': /entityrelationships/lk_practmp_stockreceivingline_modifiedby
   - '@path': /entityrelationships/organization_practmp_stockreceiving
+  - '@path': /entityrelationships/organization_practmp_stockreceivingline
   - '@path': /entityrelationships/owner_practmp_location
   - '@path': /entityrelationships/owner_practmp_product1
   - '@path': /entityrelationships/owner_practmp_productlocationjoin
@@ -154,6 +188,8 @@ SolutionComponents:
   - '@path': /entityrelationships/practmp_productlocationjoin_practmp_productid_practmp_product1
   - '@path': /entityrelationships/practmp_stockreceiving_Location_practmp_location
   - '@path': /entityrelationships/practmp_stockreceiving_PostedBy_systemuser
+  - '@path': /entityrelationships/practmp_stockreceivingline_Product_practmp_product1
+  - '@path': /entityrelationships/practmp_stockreceivingline_StockReceiving_practmp_stockreceiving
   - '@path': /entityrelationships/team_practmp_location
   - '@path': /entityrelationships/team_practmp_product1
   - '@path': /entityrelationships/team_practmp_productlocationjoin

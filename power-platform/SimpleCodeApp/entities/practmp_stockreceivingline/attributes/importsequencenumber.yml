@@ -1,15 +1,15 @@
 attribute:
-  '@PhysicalName': practmp_ReceivedOn
-  Type: datetime
-  Name: practmp_receivedon
-  LogicalName: practmp_receivedon
-  RequiredLevel: required
-  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
-  ImeMode: auto
-  ValidForUpdateApi: 1
+  '@PhysicalName': ImportSequenceNumber
+  Type: int
+  Name: importsequencenumber
+  LogicalName: importsequencenumber
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind
+  ImeMode: disabled
+  ValidForUpdateApi: 0
   ValidForReadApi: 1
   ValidForCreateApi: 1
-  IsCustomField: 1
+  IsCustomField: 0
   IsAuditEnabled: 1
   IsSecured: 0
   IntroducedVersion: 1.0
@@ -28,14 +28,14 @@ attribute:
   IsFilterable: 0
   IsRetrievable: 0
   IsLocalizable: 0
-  Format: datetime
-  CanChangeDateTimeBehavior: 1
-  Behavior: 1
+  Format: ''
+  MinValue: -2147483648
+  MaxValue: 2147483647
   displaynames:
     displayname:
-      '@description': Received On
+      '@description': Import Sequence Number
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': Sequence number of the import that created this record.
       '@languagecode': 1033

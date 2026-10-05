@@ -1,0 +1,46 @@
+systemform:
+  formid: '{26065bba-2a3f-4379-9ba1-92e7f22e0290}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{73ce4b0a-f16a-4b02-86d6-5014a152d6b4}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{567d0a65-8909-4ce6-9e45-fb41abe44b81}'
+                labels:
+                  label:
+                    '@description': GENERAL
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                      '@id': '{f278710c-41a1-473c-b5f7-35f537eb11a8}'
+                      labels:
+                        label:
+                          '@description': Receiving Line Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_receivinglinenumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_receivinglinenumber
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033

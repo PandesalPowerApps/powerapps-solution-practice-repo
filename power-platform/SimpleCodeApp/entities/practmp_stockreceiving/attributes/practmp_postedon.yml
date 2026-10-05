@@ -29,6 +29,7 @@ attribute:
   IsRetrievable: 0
   IsLocalizable: 0
   Format: datetime
+  CanChangeDateTimeBehavior: 1
   Behavior: 1
   displaynames:
     displayname:

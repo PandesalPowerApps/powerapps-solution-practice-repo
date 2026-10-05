@@ -1,15 +1,14 @@
 attribute:
-  '@PhysicalName': practmp_ReceivedOn
-  Type: datetime
-  Name: practmp_receivedon
-  LogicalName: practmp_receivedon
-  RequiredLevel: required
-  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  '@PhysicalName': OrganizationId
+  Type: lookup
+  Name: organizationid
+  LogicalName: organizationid
+  RequiredLevel: none
   ImeMode: auto
-  ValidForUpdateApi: 1
+  ValidForUpdateApi: 0
   ValidForReadApi: 1
-  ValidForCreateApi: 1
-  IsCustomField: 1
+  ValidForCreateApi: 0
+  IsCustomField: 0
   IsAuditEnabled: 1
   IsSecured: 0
   IntroducedVersion: 1.0
@@ -28,14 +27,12 @@ attribute:
   IsFilterable: 0
   IsRetrievable: 0
   IsLocalizable: 0
-  Format: datetime
-  CanChangeDateTimeBehavior: 1
-  Behavior: 1
+  LookupTypes: 
   displaynames:
     displayname:
-      '@description': Received On
+      '@description': Organization Id
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': Unique identifier for the organization
       '@languagecode': 1033

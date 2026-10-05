@@ -1,6 +1,6 @@
 CanvasApp:
   Name: practmp_simplecodeapp_474ba
-  AppVersion: 2026-09-10T00:26:57.0000000Z
+  AppVersion: 2026-10-05T03:41:58.0000000Z
   Status: Ready
   CreatedByClientVersion: 0.0.0.0
   MinClientVersion: 0.0.0.0
@@ -11,7 +11,9 @@ CanvasApp:
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   BackgroundColor: RGBA(255,255,255,1)
   DisplayName: Simple Code App
-  Description: ''
+  Description:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   CommitMessage:
     '@xsi:nil': true
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
@@ -31,11 +33,11 @@ CanvasApp:
     '@xsi:nil': true
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   IntroducedVersion: 1.0
-  CdsDependencies: '{"cdsdependencies":[{"logicalname":"practmp_location","componenttype":1},{"logicalname":"practmp_product1","componenttype":1},{"logicalname":"practmp_productlocationjoin","componenttype":1},{"logicalname":"systemuser","componenttype":1}]}'
+  CdsDependencies: '{"cdsdependencies":[{"componenttype":1,"logicalname":"practmp_location"},{"componenttype":1,"logicalname":"practmp_product1"},{"componenttype":1,"logicalname":"practmp_productlocationjoin"},{"componenttype":1,"logicalname":"systemuser"}]}'
   IsCustomizable: 1
   CodeAppPackageUris:
     CodeAppPackageUri:
     - /canvasapps/practmp_simplecodeapp_474ba/practmp_simplecodeapp_474ba_CodeAppPackages/index.html_ContentType_text/html
-    - /canvasapps/practmp_simplecodeapp_474ba/practmp_simplecodeapp_474ba_CodeAppPackages/assets/index-Cx-b93B0.js_ContentType_application/javascript
+    - /canvasapps/practmp_simplecodeapp_474ba/practmp_simplecodeapp_474ba_CodeAppPackages/assets/index-Cx-b93B0.js_ContentType_text/javascript
     - /canvasapps/practmp_simplecodeapp_474ba/practmp_simplecodeapp_474ba_CodeAppPackages/assets/index-DiIStMUk.css_ContentType_text/css
     - /canvasapps/practmp_simplecodeapp_474ba/practmp_simplecodeapp_474ba_CodeAppPackages/vite.svg_ContentType_image/svg+xml

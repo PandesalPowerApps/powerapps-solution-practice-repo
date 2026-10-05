@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': practmp_stockreceivingline_Product_practmp_product1
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.3
+  IsHierarchical: 0
+  ReferencingEntityName: practmp_StockReceivingLine
+  ReferencedEntityName: practmp_Product1
+  CascadeAssign: NoCascade
+  CascadeDelete: RemoveLink
+  CascadeArchive: RemoveLink
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: practmp_Product
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: practmp_Product
+      RelationshipRoleType: 1
+    - NavigationPropertyName: practmp_stockreceivingline_Product_practmp_product1
+      RelationshipRoleType: 0
