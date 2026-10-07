@@ -9,7 +9,7 @@ attribute:
   ValidForReadApi: 1
   ValidForCreateApi: 1
   IsCustomField: 1
-  IsAuditEnabled: 0
+  IsAuditEnabled: 1
   IsSecured: 0
   IntroducedVersion: 1.0.0.3
   IsCustomizable: 1

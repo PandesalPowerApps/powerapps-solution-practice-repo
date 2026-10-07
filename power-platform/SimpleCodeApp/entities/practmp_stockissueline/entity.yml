@@ -19,13 +19,14 @@ Entity:
           '@description': Line item representing a product and quantity issued under a Stock Issue document.
           '@languagecode': 1033
       EntitySetName: practmp_stockissuelines
-      IsDuplicateCheckSupported: 1
+      IsDuplicateCheckSupported: 0
       IsBusinessProcessEnabled: 0
       IsRequiredOffline: 0
       IsInteractionCentricEnabled: 0
       IsCollaboration: 0
       AutoRouteToOwnerQueue: 0
       IsConnectionsEnabled: 0
+      EntityColor: ''
       IsDocumentManagementEnabled: 0
       AutoCreateAccessTeams: 0
       IsOneNoteIntegrationEnabled: 0
@@ -72,9 +73,11 @@ Entity:
       CanCreateViews: 1
       CanModifyAdditionalSettings: 1
       CanEnableSyncToExternalSearchIndex: 1
+      IconVectorName: ''
       EnforceStateTransitions: 0
       CanChangeHierarchicalRelationship: 1
       EntityHelpUrlEnabled: 0
+      EntityHelpUrl: ''
       ChangeTrackingEnabled: 0
       CanChangeTrackingBeEnabled: 1
       IsEnabledForExternalChannels: 0
