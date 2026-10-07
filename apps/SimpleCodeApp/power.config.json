@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "appId": "ed57be7f-3b6b-4de2-af79-aa5a16b3ba0c",
+  "appDisplayName": "Simple Code App",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "4f36d847-0d3d-e40c-92cb-da7aa526428c",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "locations": {
+          "entitySetName": "practmp_locations",
+          "logicalName": "practmp_location",
+          "isHidden": false
+        },
+        "products": {
+          "entitySetName": "practmp_product1s",
+          "logicalName": "practmp_product1",
+          "isHidden": false
+        },
+        "productlocationjoins": {
+          "entitySetName": "practmp_productlocationjoins",
+          "logicalName": "practmp_productlocationjoin",
+          "isHidden": false
+        },
+        "environment_39a902ba": {
+          "entitySetName": "Environment",
+          "logicalName": "environment_39a902ba",
+          "isHidden": false
+        },
+        "user": {
+          "entitySetName": "systemusers",
+          "logicalName": "systemuser",
+          "isHidden": false
+        },
+        "auditing": {
+          "entitySetName": "audits",
+          "logicalName": "audit",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
