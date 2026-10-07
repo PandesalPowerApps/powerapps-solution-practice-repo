@@ -4,6 +4,7 @@ systemform:
   FormPresentation: 1
   FormActivationState: 1
   form:
+    '@headerdensity': HighWithControls
     tabs:
       tab:
         '@verticallayout': true
@@ -18,13 +19,15 @@ systemform:
             '@width': 100%
             sections:
               section:
-                '@showlabel': false
+                '@showlabel': true
                 '@showbar': false
                 '@IsUserDefined': 0
                 '@id': '{49151604-c6c7-41cb-aaef-1afa4c843907}'
+                '@name': product_details
+                '@celllabelposition': Top
                 labels:
                   label:
-                    '@description': General
+                    '@description': Product details
                     '@languagecode': 1033
                 rows:
                   row:
@@ -39,6 +42,22 @@ systemform:
                         '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
                         '@datafieldname': practmp_productname
                   - cell:
+                      '@id': '{50165824-f192-4508-8d71-c963f15840be}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 3
+                      labels:
+                        label:
+                          '@description': Description
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_description
+                        '@classid': '{E0DECE4B-6FC8-4A8F-A065-082708572369}'
+                        '@datafieldname': practmp_description
+                        '@disabled': false
+                  - 
+                  - 
+                  - cell:
                       '@id': '{87950cd6-1667-4104-a153-3f81aea20a56}'
                       labels:
                         label:
@@ -48,6 +67,93 @@ systemform:
                         '@id': ownerid
                         '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
                         '@datafieldname': ownerid
+                        '@disabled': true
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{7136f380-38da-4fad-bb25-4f98e67fd8b1}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Locations for this product
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': product_locations
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 6
+                          AutoExpand: Fixed
+                          EnableQuickFind: true
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: practmp_productlocationjoin_practmp_productid_practmp_product1
+                          TargetEntityType: practmp_productlocationjoin
+                          ViewId: '{39C0E201-950D-4B1E-AF8D-3D6FE68BF1E6}'
+                          ViewIds: '{39C0E201-950D-4B1E-AF8D-3D6FE68BF1E6}'
+                  - 
+                  - 
+                  - 
+    header:
+      '@id': '{75cbff84-e9db-429f-b367-667e7fe6dd55}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{049ae89d-bd2d-4511-8056-7f33f8223899}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{3f007048-6e83-4009-a6ff-aa7258932e84}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{68d4705a-f4d4-4fac-8ce2-3197172e970a}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    footer:
+      '@id': '{d651edd9-b2fe-43c7-813d-f4bc2186af45}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{7e3348d6-f668-46c6-b01a-b5ac428ff483}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{21d44306-95d6-4de4-8a4c-083e2774ae1d}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{784de9cf-870c-4304-ac66-fa6e08018062}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
   IsCustomizable: 1
   CanBeDeleted: 1
   LocalizedNames:

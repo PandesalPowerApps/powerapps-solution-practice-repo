@@ -1,0 +1,221 @@
+systemform:
+  formid: '{1d74a4ae-78c7-4988-984a-6920fe8670e5}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{72c4b33c-8551-4e08-8d76-fc94c19862e7}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{5f74015a-9c80-42b8-aef5-1275c45efd2b}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{a5155e51-3385-4b26-b8f6-00bfb32059a0}'
+                      labels:
+                        label:
+                          '@description': Ledger Entry Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_ledgerentrynumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_ledgerentrynumber
+                  - cell:
+                      '@id': '{0be5275f-24f9-4bd4-8e27-b8439a3f76d6}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Product
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_product
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_product
+                        '@disabled': false
+                  - cell:
+                      '@id': '{205eb0c9-d178-47b4-81cd-9b0685838534}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Location
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_location
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_location
+                        '@disabled': false
+                  - cell:
+                      '@id': '{45005d47-6696-4dd2-b0a9-dde2b7fbf6c9}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Quantity Delta
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_quantitydelta
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': practmp_quantitydelta
+                        '@disabled': false
+                  - cell:
+                      '@id': '{0890f612-11bf-406c-8efc-6c0096d834fa}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Transaction Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_transactiontype
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': practmp_transactiontype
+                        '@disabled': false
+                  - cell:
+                      '@id': '{210f575f-1ab4-430d-a0f6-9ee772482f3a}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Posted On
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_postedon
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': practmp_postedon
+                        '@disabled': false
+                  - cell:
+                      '@id': '{9f9259eb-8a7c-49fa-a3fc-6b448a874c56}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Posted By
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_postedby
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_postedby
+                        '@disabled': false
+                  - cell:
+                      '@id': '{0c349719-3904-4fb2-a132-09555fccbdb4}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Stock Issue Line
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_stockissueline
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_stockissueline
+                        '@disabled': false
+                  - cell:
+                      '@id': '{7a65ff0c-5836-4102-9c7a-bcf845f424a9}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Stock Receiving Line
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_stockreceivingline
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_stockreceivingline
+                        '@disabled': false
+    header:
+      '@id': '{2550b5e3-8169-4dcd-b680-28fc7a968fdb}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{d2bde9d9-885f-44d5-ae1b-b9b6b71e8dbb}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{2396d32b-fa9f-409c-9219-b9a078700e82}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{20617bee-24e9-4aee-9f53-ddb5875c2073}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    footer:
+      '@id': '{b2685e4a-fe0c-4051-8dd3-ae9b851efd02}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{0ba0ded1-e9b3-4c4b-b852-6cf60d17670a}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{48bfb76c-d23b-4647-98d6-60ad56e4756b}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{8832b418-f050-4d73-9abc-9077c0b4a28d}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

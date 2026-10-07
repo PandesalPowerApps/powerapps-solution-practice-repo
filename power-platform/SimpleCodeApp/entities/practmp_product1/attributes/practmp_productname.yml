@@ -38,5 +38,5 @@ attribute:
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': Enter a clear product name, including the model or variant when relevant (for example, Sihoo M57 Pro). Search existing products before creating a new record to avoid duplicates.
       '@languagecode': 1033

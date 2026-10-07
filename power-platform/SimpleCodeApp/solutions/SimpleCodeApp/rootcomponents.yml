@@ -10,6 +10,15 @@ RootComponents:
     '@schemaName': practmp_productlocationjoin
     '@behavior': 0
   - '@type': 1
+    '@schemaName': practmp_stockissue
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': practmp_stockissueline
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': practmp_stockledger
+    '@behavior': 0
+  - '@type': 1
     '@schemaName': practmp_stockreceiving
     '@behavior': 0
   - '@type': 1
@@ -26,6 +35,15 @@ RootComponents:
     '@behavior': 0
   - '@type': 20
     '@id': '{fbca4dff-f9ab-f111-aaad-000d3a86632c}'
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': practmp_simplecatalog_relationship.js
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': practmp_Products
+    '@behavior': 0
+  - '@type': 80
+    '@schemaName': practmp_Products
     '@behavior': 0
   - '@type': 300
     '@schemaName': practmp_simplecodeapp_474ba

@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': practmp_stockledger_StockIssueLine_practmp_stockissueline
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.3
+  IsHierarchical: 0
+  ReferencingEntityName: practmp_StockLedger
+  ReferencedEntityName: practmp_StockIssueLine
+  CascadeAssign: NoCascade
+  CascadeDelete: Restrict
+  CascadeArchive: RemoveLink
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: practmp_StockIssueLine
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: practmp_StockIssueLine
+      RelationshipRoleType: 1
+    - NavigationPropertyName: practmp_stockledger_StockIssueLine_practmp_stockissueline
+      RelationshipRoleType: 0

@@ -18,8 +18,10 @@ savedquery:
         cell:
         - '@name': practmp_receivinglinenumber
           '@width': 300
-        - '@name': createdon
-          '@width': 125
+        - '@name': practmp_product
+          '@width': 100
+        - '@name': practmp_quantity
+          '@width': 100
   querytype: 0
   fetchxml:
     fetch:
@@ -30,7 +32,8 @@ savedquery:
         attribute:
         - '@name': practmp_stockreceivinglineid
         - '@name': practmp_receivinglinenumber
-        - '@name': createdon
+        - '@name': practmp_product
+        - '@name': practmp_quantity
         order:
           '@attribute': practmp_receivinglinenumber
           '@descending': false

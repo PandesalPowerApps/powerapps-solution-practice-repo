@@ -1,0 +1,106 @@
+AppModuleSiteMap:
+  SiteMapUniqueName: practmp_Products
+  EnableCollapsibleGroups: False
+  ShowHome: True
+  ShowPinned: True
+  ShowRecents: True
+  SiteMap:
+    '@IntroducedVersion': 7.0.0.0
+    Area:
+      '@Id': area_768c2908
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': Area1
+      Group:
+      - '@Id': group_54471e67
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Inventory Setup
+        SubArea:
+        - '@Id': subarea_b12906c3
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_product1
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_13bfd84a
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_location
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_3ffd32db
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_productlocationjoin
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': Product Location Joins
+      - '@Id': group_78e4c09e
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Transactions
+        SubArea:
+        - '@Id': subarea_0b51c243
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_stockreceiving
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_afe7914b
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_stockissue
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+      - '@Id': group_eed2373c
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Inventory
+        SubArea:
+          '@Id': subarea_628841c5
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': practmp_stockledger
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+          Titles:
+            Title:
+              '@LCID': 1033
+              '@Title': Stock Ledger
+  LocalizedNames:
+    LocalizedName:
+      '@description': Products
+      '@languagecode': 1033

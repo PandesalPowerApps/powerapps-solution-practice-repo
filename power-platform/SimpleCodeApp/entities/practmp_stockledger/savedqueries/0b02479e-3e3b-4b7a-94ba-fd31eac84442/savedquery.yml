@@ -1,0 +1,59 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{0b02479e-3e3b-4b7a-94ba-fd31eac84442}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_ledgerentrynumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_stockledgerid
+        cell:
+        - '@name': practmp_ledgerentrynumber
+          '@width': 300
+        - '@name': practmp_product
+          '@width': 100
+        - '@name': practmp_location
+          '@width': 100
+        - '@name': practmp_quantitydelta
+          '@width': 123
+        - '@name': practmp_transactiontype
+          '@width': 137
+        - '@name': practmp_postedon
+          '@width': 100
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockledger
+        attribute:
+        - '@name': practmp_stockledgerid
+        - '@name': practmp_ledgerentrynumber
+        - '@name': practmp_product
+        - '@name': practmp_location
+        - '@name': practmp_quantitydelta
+        - '@name': practmp_transactiontype
+        - '@name': practmp_postedon
+        order:
+          '@attribute': practmp_ledgerentrynumber
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Stock Ledger Entries
+      '@languagecode': 1033

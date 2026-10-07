@@ -4,6 +4,8 @@ SolutionComponents:
   - '@path': /aiskillconfigs/ais_FormFillFieldOptOut_practmp_stockreceiving_practmp_postedon
   - '@path': /aiskillconfigs/ais_FormFillFieldOptOut_practmp_stockreceiving_practmp_receivingnumber
   - '@path': /aiskillconfigs/ais_FormFillFieldOptOut_practmp_stockreceiving_practmp_receivingstatus
+  - '@path': /appmodules/practmp_Products
+  - '@path': /appmodulesitemaps/practmp_Products
   - '@path': /canvasapps/practmp_simplecodeapp_474ba
   - '@path': /entities/practmp_location
   - '@path': /entities/practmp_location/attributes/createdby.yml
@@ -100,6 +102,105 @@ SolutionComponents:
   - '@path': /entities/practmp_productlocationjoin/savedqueries/c7438903-55aa-f111-aaac-6045bd5743ec
   - '@path': /entities/practmp_productlocationjoin/savedqueries/c86976cf-f5ae-42d3-8cfb-d7503858f153
   - '@path': /entities/practmp_productlocationjoin/savedqueries/d863dc41-8e97-4913-84ee-59203c4a06ff
+  - '@path': /entities/practmp_stockissue
+  - '@path': /entities/practmp_stockissue/attributes/createdby.yml
+  - '@path': /entities/practmp_stockissue/attributes/createdon.yml
+  - '@path': /entities/practmp_stockissue/attributes/createdonbehalfby.yml
+  - '@path': /entities/practmp_stockissue/attributes/importsequencenumber.yml
+  - '@path': /entities/practmp_stockissue/attributes/modifiedby.yml
+  - '@path': /entities/practmp_stockissue/attributes/modifiedon.yml
+  - '@path': /entities/practmp_stockissue/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/practmp_stockissue/attributes/organizationid.yml
+  - '@path': /entities/practmp_stockissue/attributes/overriddencreatedon.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_externalreference.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_issuedon.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_issuenumber.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_issuestatus.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_location.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_postedby.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_postedon.yml
+  - '@path': /entities/practmp_stockissue/attributes/practmp_stockissueid.yml
+  - '@path': /entities/practmp_stockissue/attributes/statecode.yml
+  - '@path': /entities/practmp_stockissue/attributes/statuscode.yml
+  - '@path': /entities/practmp_stockissue/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/practmp_stockissue/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/practmp_stockissue/formxml/card/ed2d681f-dcf0-496d-b396-4f8464fae612
+  - '@path': /entities/practmp_stockissue/formxml/main/781a72ae-6eb1-46e6-90dd-b03c98324dfd
+  - '@path': /entities/practmp_stockissue/formxml/quick/fef43ead-8eaf-460b-be10-eb409d64c0b9
+  - '@path': /entities/practmp_stockissue/ribbondiffs
+  - '@path': /entities/practmp_stockissue/savedqueries/00acf432-05ae-4ef0-908e-2788246cde4d
+  - '@path': /entities/practmp_stockissue/savedqueries/2ebc8879-ed41-4926-bbac-e336adae937b
+  - '@path': /entities/practmp_stockissue/savedqueries/88f17583-4b06-49fb-a24c-0aed76aed17b
+  - '@path': /entities/practmp_stockissue/savedqueries/a2c94ac2-f541-40b3-8783-92bdb874faeb
+  - '@path': /entities/practmp_stockissue/savedqueries/ab813938-2dc2-f111-a05a-70a8a5025a7f
+  - '@path': /entities/practmp_stockissue/savedqueries/d036e65b-b547-49e5-875b-7c869f5f654b
+  - '@path': /entities/practmp_stockissue/savedqueries/efa67cfb-13e8-427b-8b6e-9dafc048378a
+  - '@path': /entities/practmp_stockissueline
+  - '@path': /entities/practmp_stockissueline/attributes/createdby.yml
+  - '@path': /entities/practmp_stockissueline/attributes/createdon.yml
+  - '@path': /entities/practmp_stockissueline/attributes/createdonbehalfby.yml
+  - '@path': /entities/practmp_stockissueline/attributes/importsequencenumber.yml
+  - '@path': /entities/practmp_stockissueline/attributes/modifiedby.yml
+  - '@path': /entities/practmp_stockissueline/attributes/modifiedon.yml
+  - '@path': /entities/practmp_stockissueline/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/practmp_stockissueline/attributes/organizationid.yml
+  - '@path': /entities/practmp_stockissueline/attributes/overriddencreatedon.yml
+  - '@path': /entities/practmp_stockissueline/attributes/practmp_issuelinenumber.yml
+  - '@path': /entities/practmp_stockissueline/attributes/practmp_product.yml
+  - '@path': /entities/practmp_stockissueline/attributes/practmp_quantity.yml
+  - '@path': /entities/practmp_stockissueline/attributes/practmp_stockissue.yml
+  - '@path': /entities/practmp_stockissueline/attributes/practmp_stockissuelineid.yml
+  - '@path': /entities/practmp_stockissueline/attributes/statecode.yml
+  - '@path': /entities/practmp_stockissueline/attributes/statuscode.yml
+  - '@path': /entities/practmp_stockissueline/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/practmp_stockissueline/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/practmp_stockissueline/entitykeys/practmp_stockissueproductunique
+  - '@path': /entities/practmp_stockissueline/formxml/card/98693dbb-f559-4080-91c0-4298f33d4cdb
+  - '@path': /entities/practmp_stockissueline/formxml/main/a969ff4c-1c6d-4a6f-8db7-306f657af794
+  - '@path': /entities/practmp_stockissueline/formxml/quick/e719d696-50e5-4d15-b7d6-d6a120172b09
+  - '@path': /entities/practmp_stockissueline/ribbondiffs
+  - '@path': /entities/practmp_stockissueline/savedqueries/1af6bec7-ec9b-4fc9-8178-1c54c850a2b6
+  - '@path': /entities/practmp_stockissueline/savedqueries/29c0f954-db6c-4445-a99a-1352455df4f3
+  - '@path': /entities/practmp_stockissueline/savedqueries/6b3fd2a0-2ec2-f111-a05a-002248199962
+  - '@path': /entities/practmp_stockissueline/savedqueries/c080cdcb-0d79-4997-b8bd-a05d99b33ce3
+  - '@path': /entities/practmp_stockissueline/savedqueries/d0d5a0ce-8544-46a6-9e44-b8acb0276a3c
+  - '@path': /entities/practmp_stockissueline/savedqueries/d1fb3521-086d-4926-927b-409009f166e1
+  - '@path': /entities/practmp_stockissueline/savedqueries/e7094796-2436-466b-b259-740d8cb7b99d
+  - '@path': /entities/practmp_stockledger
+  - '@path': /entities/practmp_stockledger/attributes/createdby.yml
+  - '@path': /entities/practmp_stockledger/attributes/createdon.yml
+  - '@path': /entities/practmp_stockledger/attributes/createdonbehalfby.yml
+  - '@path': /entities/practmp_stockledger/attributes/importsequencenumber.yml
+  - '@path': /entities/practmp_stockledger/attributes/modifiedby.yml
+  - '@path': /entities/practmp_stockledger/attributes/modifiedon.yml
+  - '@path': /entities/practmp_stockledger/attributes/modifiedonbehalfby.yml
+  - '@path': /entities/practmp_stockledger/attributes/organizationid.yml
+  - '@path': /entities/practmp_stockledger/attributes/overriddencreatedon.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_ledgerentrynumber.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_location.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_postedby.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_postedon.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_product.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_quantitydelta.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_stockissueline.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_stockledgerid.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_stockreceivingline.yml
+  - '@path': /entities/practmp_stockledger/attributes/practmp_transactiontype.yml
+  - '@path': /entities/practmp_stockledger/attributes/statecode.yml
+  - '@path': /entities/practmp_stockledger/attributes/statuscode.yml
+  - '@path': /entities/practmp_stockledger/attributes/timezoneruleversionnumber.yml
+  - '@path': /entities/practmp_stockledger/attributes/utcconversiontimezonecode.yml
+  - '@path': /entities/practmp_stockledger/formxml/card/a1781570-f262-451b-a061-e68b4320bc15
+  - '@path': /entities/practmp_stockledger/formxml/main/1d74a4ae-78c7-4988-984a-6920fe8670e5
+  - '@path': /entities/practmp_stockledger/formxml/quick/5467ce1b-2e17-4922-b02c-75e912112f61
+  - '@path': /entities/practmp_stockledger/ribbondiffs
+  - '@path': /entities/practmp_stockledger/savedqueries/0b02479e-3e3b-4b7a-94ba-fd31eac84442
+  - '@path': /entities/practmp_stockledger/savedqueries/181dcd3a-bb5f-448c-a7dc-067d0f9a49b3
+  - '@path': /entities/practmp_stockledger/savedqueries/820deda3-ce12-43d5-8cef-08ffc5e884e1
+  - '@path': /entities/practmp_stockledger/savedqueries/87c1c335-69fa-45e8-bba3-732c0aa693fe
+  - '@path': /entities/practmp_stockledger/savedqueries/b648a92a-0938-4b68-bb63-c56b7e23835b
+  - '@path': /entities/practmp_stockledger/savedqueries/ebeae273-bf33-4918-abdc-8dc273416a79
+  - '@path': /entities/practmp_stockledger/savedqueries/f04952b4-2fc2-f111-a05a-002248199962
   - '@path': /entities/practmp_stockreceiving
   - '@path': /entities/practmp_stockreceiving/attributes/createdby.yml
   - '@path': /entities/practmp_stockreceiving/attributes/createdon.yml
@@ -175,10 +276,19 @@ SolutionComponents:
   - '@path': /entityrelationships/lk_practmp_product1_modifiedby
   - '@path': /entityrelationships/lk_practmp_productlocationjoin_createdby
   - '@path': /entityrelationships/lk_practmp_productlocationjoin_modifiedby
+  - '@path': /entityrelationships/lk_practmp_stockissue_createdby
+  - '@path': /entityrelationships/lk_practmp_stockissue_modifiedby
+  - '@path': /entityrelationships/lk_practmp_stockissueline_createdby
+  - '@path': /entityrelationships/lk_practmp_stockissueline_modifiedby
+  - '@path': /entityrelationships/lk_practmp_stockledger_createdby
+  - '@path': /entityrelationships/lk_practmp_stockledger_modifiedby
   - '@path': /entityrelationships/lk_practmp_stockreceiving_createdby
   - '@path': /entityrelationships/lk_practmp_stockreceiving_modifiedby
   - '@path': /entityrelationships/lk_practmp_stockreceivingline_createdby
   - '@path': /entityrelationships/lk_practmp_stockreceivingline_modifiedby
+  - '@path': /entityrelationships/organization_practmp_stockissue
+  - '@path': /entityrelationships/organization_practmp_stockissueline
+  - '@path': /entityrelationships/organization_practmp_stockledger
   - '@path': /entityrelationships/organization_practmp_stockreceiving
   - '@path': /entityrelationships/organization_practmp_stockreceivingline
   - '@path': /entityrelationships/owner_practmp_location
@@ -186,6 +296,15 @@ SolutionComponents:
   - '@path': /entityrelationships/owner_practmp_productlocationjoin
   - '@path': /entityrelationships/practmp_ProductLocationJoin_practmp_Location
   - '@path': /entityrelationships/practmp_productlocationjoin_practmp_productid_practmp_product1
+  - '@path': /entityrelationships/practmp_stockissue_Location_practmp_location
+  - '@path': /entityrelationships/practmp_stockissue_PostedBy_systemuser
+  - '@path': /entityrelationships/practmp_stockissueline_Product_practmp_product1
+  - '@path': /entityrelationships/practmp_stockissueline_StockIssue_practmp_stockissue
+  - '@path': /entityrelationships/practmp_stockledger_Location_practmp_location
+  - '@path': /entityrelationships/practmp_stockledger_PostedBy_systemuser
+  - '@path': /entityrelationships/practmp_stockledger_Product_practmp_product1
+  - '@path': /entityrelationships/practmp_stockledger_StockIssueLine_practmp_stockissueline
+  - '@path': /entityrelationships/practmp_stockledger_StockReceivingLine_practmp_stockreceivingline
   - '@path': /entityrelationships/practmp_stockreceiving_Location_practmp_location
   - '@path': /entityrelationships/practmp_stockreceiving_PostedBy_systemuser
   - '@path': /entityrelationships/practmp_stockreceivingline_Product_practmp_product1
@@ -202,3 +321,4 @@ SolutionComponents:
   - '@path': /roles/Admin
   - '@path': /roles/Location Manager
   - '@path': /roles/Product Manager
+  - '@path': /webresources/f5b48516-27c2-f111-aaaf-000d3a86632c

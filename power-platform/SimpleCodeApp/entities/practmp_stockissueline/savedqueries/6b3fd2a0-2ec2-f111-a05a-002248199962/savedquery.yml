@@ -1,0 +1,32 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{6b3fd2a0-2ec2-f111-a05a-002248199962}'
+  querytype: 8192
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      '@output-format': xml-platform
+      entity:
+        '@name': practmp_stockissueline
+        attribute:
+          '@name': practmp_stockissuelineid
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Stock Issue Lines
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': All active Stock Issue Lines
+      '@languagecode': 1033

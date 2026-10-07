@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{820deda3-ce12-43d5-8cef-08ffc5e884e1}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_ledgerentrynumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_stockledgerid
+        cell:
+        - '@name': practmp_ledgerentrynumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockledger
+        attribute:
+        - '@name': practmp_stockledgerid
+        - '@name': practmp_ledgerentrynumber
+        - '@name': createdon
+        order:
+          '@attribute': practmp_ledgerentrynumber
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Stock Ledger Advanced Find View
+      '@languagecode': 1033

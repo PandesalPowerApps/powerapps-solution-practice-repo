@@ -1,0 +1,221 @@
+systemform:
+  formid: '{781a72ae-6eb1-46e6-90dd-b03c98324dfd}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{2f1c5b06-a461-4b64-b887-f53a0067f7bb}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{bdc5ae83-2dc2-453e-98b3-e8c5d8211964}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{110319c4-2cab-4287-910f-9097120da22c}'
+                      labels:
+                        label:
+                          '@description': Issue Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_issuenumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_issuenumber
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{3fbfd1a1-5af2-41d9-ac6e-f525547673ad}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Stock Issue Lines
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': Subgrid_StockIssueLines
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 4
+                          AutoExpand: Fixed
+                          EnableQuickFind: false
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: practmp_stockissueline_StockIssue_practmp_stockissue
+                          TargetEntityType: practmp_stockissueline
+                          ViewId: '{D0D5A0CE-8544-46A6-9E44-B8ACB0276A3C}'
+                          ViewIds: '{D0D5A0CE-8544-46A6-9E44-B8ACB0276A3C}'
+                  - 
+                  - 
+                  - 
+                  - cell:
+                      '@id': '{ef00c4e6-ed85-4509-acb4-f63b44e2fb89}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Issue Status
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_issuestatus
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': practmp_issuestatus
+                        '@disabled': false
+                  - cell:
+                      '@id': '{7953664d-ce8e-4a39-9026-7dcee69a52b0}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Issued On
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_issuedon
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': practmp_issuedon
+                        '@disabled': false
+                  - cell:
+                      '@id': '{9fb9fdb5-079f-42db-935f-9292ba5d6a61}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Location
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_location
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_location
+                        '@disabled': false
+                  - cell:
+                      '@id': '{29596cb4-ed54-444b-9a04-fd51eb2cd0b8}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': External Reference
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_externalreference
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_externalreference
+                        '@disabled': false
+                  - cell:
+                      '@id': '{ff9cd84a-1566-4a57-8cbf-b749e086f1c8}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Posted By
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_postedby
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': practmp_postedby
+                        '@disabled': false
+                  - cell:
+                      '@id': '{00068dd3-4026-4052-971b-58d90932b191}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Posted On
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_postedon
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': practmp_postedon
+                        '@disabled': false
+    header:
+      '@id': '{2702104f-9183-4d82-81be-639f305e3c0d}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{710afd57-d4aa-4de0-878b-48038a00380b}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{d91fa40e-dd2c-4e35-86c8-ef27ff1b330f}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{6edf6b8a-a986-4ec4-a2cd-16fcf6c3cb10}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    footer:
+      '@id': '{c8dbd03d-ea71-4d28-82d1-afba61a3ad79}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{ccdb17c9-5158-4ce4-b1b0-8b82284ac4e4}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{c2a5fc12-0dc2-449a-8de9-8c4bff926208}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{bbba616d-8ed5-4d63-aae7-84378bfc449d}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

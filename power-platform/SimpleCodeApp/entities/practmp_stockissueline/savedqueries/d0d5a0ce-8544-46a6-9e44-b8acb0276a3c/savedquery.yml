@@ -1,0 +1,50 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{d0d5a0ce-8544-46a6-9e44-b8acb0276a3c}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_issuelinenumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_stockissuelineid
+        cell:
+        - '@name': practmp_issuelinenumber
+          '@width': 300
+        - '@name': practmp_product
+          '@width': 100
+        - '@name': practmp_quantity
+          '@width': 100
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockissueline
+        attribute:
+        - '@name': practmp_stockissuelineid
+        - '@name': practmp_issuelinenumber
+        - '@name': practmp_product
+        - '@name': practmp_quantity
+        order:
+          '@attribute': practmp_issuelinenumber
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Stock Issue Lines
+      '@languagecode': 1033

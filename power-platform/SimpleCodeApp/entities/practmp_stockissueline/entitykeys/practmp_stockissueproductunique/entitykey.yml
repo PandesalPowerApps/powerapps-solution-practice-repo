@@ -1,0 +1,13 @@
+EntityKey:
+  Name: practmp_StockIssueProductUnique
+  LogicalName: practmp_stockissueproductunique
+  IntroducedVersion: 1.0.0.3
+  IsCustomizable: 0
+  EntityKeyAttributes:
+    AttributeName:
+    - practmp_product
+    - practmp_stockissue
+  displaynames:
+    displayname:
+      '@description': Stock Issue Product Unique
+      '@languagecode': 1033

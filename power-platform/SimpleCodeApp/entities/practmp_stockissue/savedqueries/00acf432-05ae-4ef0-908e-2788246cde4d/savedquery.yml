@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{00acf432-05ae-4ef0-908e-2788246cde4d}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': practmp_issuenumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': practmp_stockissueid
+        cell:
+        - '@name': practmp_issuenumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockissue
+        attribute:
+        - '@name': practmp_stockissueid
+        - '@name': practmp_issuenumber
+        - '@name': createdon
+        order:
+          '@attribute': practmp_issuenumber
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+            '@attribute': practmp_issuenumber
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Quick Find Active Stock Issues
+      '@languagecode': 1033

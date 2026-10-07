@@ -18,8 +18,16 @@ savedquery:
         cell:
         - '@name': practmp_receivingnumber
           '@width': 300
-        - '@name': createdon
-          '@width': 125
+        - '@name': practmp_receivingstatus
+          '@width': 135
+        - '@name': practmp_location
+          '@width': 100
+        - '@name': practmp_receivedon
+          '@width': 113
+        - '@name': practmp_externalreference
+          '@width': 148
+        - '@name': practmp_postedon
+          '@width': 100
   querytype: 0
   fetchxml:
     fetch:
@@ -30,7 +38,11 @@ savedquery:
         attribute:
         - '@name': practmp_stockreceivingid
         - '@name': practmp_receivingnumber
-        - '@name': createdon
+        - '@name': practmp_receivingstatus
+        - '@name': practmp_location
+        - '@name': practmp_receivedon
+        - '@name': practmp_externalreference
+        - '@name': practmp_postedon
         order:
           '@attribute': practmp_receivingnumber
           '@descending': false

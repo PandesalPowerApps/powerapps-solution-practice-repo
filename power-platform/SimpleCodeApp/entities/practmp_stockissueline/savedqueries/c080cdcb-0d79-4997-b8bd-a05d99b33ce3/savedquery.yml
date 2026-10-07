@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{c080cdcb-0d79-4997-b8bd-a05d99b33ce3}'
+  layoutxml:
+    grid:
+      '@name': practmp_stockissuelines
+      '@jump': practmp_issuelinenumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': practmp_stockissueline
+        '@id': practmp_stockissuelineid
+        cell:
+        - '@name': practmp_issuelinenumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockissueline
+        attribute:
+        - '@name': practmp_stockissuelineid
+        - '@name': practmp_issuelinenumber
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Stock Issue Line Lookup View
+      '@languagecode': 1033

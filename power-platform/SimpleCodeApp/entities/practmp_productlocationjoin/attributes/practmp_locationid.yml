@@ -35,5 +35,5 @@ attribute:
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': Select the existing location where this product is available. Check existing relationships before adding the same product-location pair.
       '@languagecode': 1033

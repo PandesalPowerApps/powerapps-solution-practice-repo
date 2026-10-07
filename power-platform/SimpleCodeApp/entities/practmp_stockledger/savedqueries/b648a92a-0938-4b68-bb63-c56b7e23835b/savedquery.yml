@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{b648a92a-0938-4b68-bb63-c56b7e23835b}'
+  layoutxml:
+    grid:
+      '@name': practmp_stockledgers
+      '@jump': practmp_ledgerentrynumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': practmp_stockledger
+        '@id': practmp_stockledgerid
+        cell:
+        - '@name': practmp_ledgerentrynumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': practmp_stockledger
+        attribute:
+        - '@name': practmp_stockledgerid
+        - '@name': practmp_ledgerentrynumber
+        - '@name': createdon
+        order:
+          '@attribute': practmp_ledgerentrynumber
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Stock Ledger Associated View
+      '@languagecode': 1033

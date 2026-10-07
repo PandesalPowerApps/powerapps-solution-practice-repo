@@ -7,8 +7,8 @@ EntityRelationship:
   ReferencingEntityName: practmp_StockReceivingLine
   ReferencedEntityName: practmp_StockReceiving
   CascadeAssign: NoCascade
-  CascadeDelete: RemoveLink
-  CascadeArchive: RemoveLink
+  CascadeDelete: Cascade
+  CascadeArchive: Cascade
   CascadeReparent: NoCascade
   CascadeShare: NoCascade
   CascadeUnshare: NoCascade

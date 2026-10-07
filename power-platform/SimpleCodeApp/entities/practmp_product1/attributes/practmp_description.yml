@@ -38,5 +38,5 @@ attribute:
       '@languagecode': 1033
   Descriptions:
     Description:
-      '@description': ''
+      '@description': 'Optional: add details that distinguish this product, such as brand, model, size, color, or intended use. Keep stock quantities and locations out of this field; manage them through product-location relationships.'
       '@languagecode': 1033

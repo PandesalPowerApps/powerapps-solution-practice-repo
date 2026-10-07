@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': practmp_stockissueline_StockIssue_practmp_stockissue
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.3
+  IsHierarchical: 0
+  ReferencingEntityName: practmp_StockIssueLine
+  ReferencedEntityName: practmp_StockIssue
+  CascadeAssign: NoCascade
+  CascadeDelete: Cascade
+  CascadeArchive: Cascade
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: practmp_StockIssue
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: practmp_StockIssue
+      RelationshipRoleType: 1
+    - NavigationPropertyName: practmp_stockissueline_StockIssue_practmp_stockissue
+      RelationshipRoleType: 0

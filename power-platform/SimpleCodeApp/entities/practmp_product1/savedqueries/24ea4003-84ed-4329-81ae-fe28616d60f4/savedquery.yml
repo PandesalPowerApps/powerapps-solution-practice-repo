@@ -16,8 +16,12 @@ savedquery:
         '@name': result
         '@id': practmp_product1id
         cell:
-          '@name': practmp_productname
+        - '@name': practmp_productname
           '@width': 300
+        - '@name': practmp_description
+          '@width': 106
+        - '@name': modifiedon
+          '@width': 113
   querytype: 0
   fetchxml:
     fetch:
@@ -29,6 +33,8 @@ savedquery:
         - '@name': practmp_product1id
         - '@name': practmp_productname
         - '@name': createdon
+        - '@name': practmp_description
+        - '@name': modifiedon
         order:
           '@attribute': practmp_productname
           '@descending': false

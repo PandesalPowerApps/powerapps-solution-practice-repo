@@ -1,0 +1,46 @@
+systemform:
+  formid: '{fef43ead-8eaf-460b-be10-eb409d64c0b9}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{c1640a00-184a-41f9-92f3-a0f8dcf18d13}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{c4651a59-1acf-4bdc-a400-da1afa0207ac}'
+                labels:
+                  label:
+                    '@description': GENERAL
+                    '@languagecode': 1033
+                rows:
+                  row:
+                    cell:
+                      '@id': '{b738dd43-c9e3-4af4-8ea0-cefdddc81723}'
+                      labels:
+                        label:
+                          '@description': Issue Number
+                          '@languagecode': 1033
+                      control:
+                        '@id': practmp_issuenumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': practmp_issuenumber
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033

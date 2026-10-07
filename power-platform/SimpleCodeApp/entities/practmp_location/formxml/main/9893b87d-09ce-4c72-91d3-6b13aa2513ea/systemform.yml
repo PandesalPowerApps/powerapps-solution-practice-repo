@@ -4,6 +4,7 @@ systemform:
   FormPresentation: 1
   FormActivationState: 1
   form:
+    '@headerdensity': HighWithControls
     tabs:
       tab:
         '@verticallayout': true
@@ -18,13 +19,15 @@ systemform:
             '@width': 100%
             sections:
               section:
-                '@showlabel': false
+                '@showlabel': true
                 '@showbar': false
                 '@IsUserDefined': 0
                 '@id': '{d4be25ad-312d-458a-8677-4171faa05271}'
+                '@name': location_details
+                '@celllabelposition': Top
                 labels:
                   label:
-                    '@description': General
+                    '@description': Location details
                     '@languagecode': 1033
                 rows:
                   row:
@@ -48,6 +51,93 @@ systemform:
                         '@id': ownerid
                         '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
                         '@datafieldname': ownerid
+                        '@disabled': true
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{2f6eb1dd-2c74-4c11-887d-aff50ed4389f}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Products at this location
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': location_products
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 6
+                          AutoExpand: Fixed
+                          EnableQuickFind: true
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: practmp_ProductLocationJoin_practmp_Location
+                          TargetEntityType: practmp_productlocationjoin
+                          ViewId: '{39C0E201-950D-4B1E-AF8D-3D6FE68BF1E6}'
+                          ViewIds: '{39C0E201-950D-4B1E-AF8D-3D6FE68BF1E6}'
+                  - 
+                  - 
+                  - 
+    header:
+      '@id': '{01fef28c-a9f8-48f9-9720-1b66b895205e}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{327f281b-d4db-41e4-8be0-34ab4b340321}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{63cdb3b4-b20b-4d79-b264-2f17572c3cf6}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{d6a4c1a4-afe9-4173-966d-52e485e51fee}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    footer:
+      '@id': '{14592f5c-377d-4308-a5e2-15cbb13c8782}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{ed216849-a12e-4d0a-bf6b-74112b017ff8}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{7b683797-2a8f-4cf3-bbfb-011c51b7f676}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{f89c1707-d5c8-4639-97be-1eacb66b872f}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
   IsCustomizable: 1
   CanBeDeleted: 1
   LocalizedNames:
